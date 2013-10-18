@@ -14,7 +14,7 @@ der Server neu gestartet werden.
 
 Mit `nodemon` lässt sich das automatisieren:
 
-- `npm install -g nodeman`
+- `npm install -g nodemon`
 - `nodemon app.js`
 
 ### Mehr Einträge
