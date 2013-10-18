@@ -20,3 +20,7 @@ Mit `nodemon` lässt sich das automatisieren:
 ### Mehr Einträge
 
 In `lib/requestDates` den Wert für `maxItems` hochsetzen.
+
+### Das JSON besser inspizieren
+
+Unter `/dates.json` gibt es den wichtigen Teil des JSON, über den iteriert wird.

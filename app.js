@@ -36,7 +36,7 @@ app.get('/', function (req, res) {
 
 app.get('/dates.json', function (req, res) {
 	if (calendar.dates) {
-		res.write(JSON.stringify(calendar.dates));
+		res.write("{" + JSON.stringify(calendar.dates) + "}");
 	} else {
 		res.write("{/* no data loaded yet, try again in a second */}");
 	}
