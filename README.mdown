@@ -1,0 +1,22 @@
+# Webmontag Kalender
+
+## Zum laufen bringen
+
+1. Repository Clonen
+2. Im Verzeichnis `npm install`, um Dependencies zu installieren.
+3. App Starten: `npm start`.
+
+
+## Hints:
+
+Wenn an der app.js (oder einer Datei im `lib/`-Ordner) etwas geändert wird, muss
+der Server neu gestartet werden.
+
+Mit `nodemon` lässt sich das automatisieren:
+
+- `npm install -g nodeman`
+- `nodemon app.js`
+
+### Mehr Einträge
+
+In `lib/requestDates` den Wert für `maxItems` hochsetzen.
