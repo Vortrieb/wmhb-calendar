@@ -43,7 +43,7 @@ app.get('/dates.json', function (req, res) {
 });
 
 calendar.refresh();
-setTimeout(calendar.refresh, 1000 * 60);
+setTimeout(calendar.refresh, 1000 * 60 * 10);
 
 http.createServer(app).listen(app.get('port'), function () {
 	console.log('Express server listening on port ' + app.get('port'));
