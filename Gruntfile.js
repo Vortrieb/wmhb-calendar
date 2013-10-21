@@ -19,7 +19,6 @@ module.exports = function (grunt) {
 				options: {
 					script: 'app.js',
 					node_env: 'development',
-					output: 'got calendar response'
 				}
 			}
 		},
