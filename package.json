@@ -15,5 +15,8 @@
     "strftime": "~0.6.2",
     "node-compass": "~0.2.3",
     "compass": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
   }
 }
