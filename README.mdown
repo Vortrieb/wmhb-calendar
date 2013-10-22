@@ -1,5 +1,10 @@
 # Webmontag Kalender
 
+## Vorraussetzungen
+
+Grunt muss installiert sein: `npm install -g grunt-cli`. Am besten auch `npm` auf
+dem aktuellsten Stand halten.
+
 ## Zum laufen bringen
 
 1. Repository Clonen
