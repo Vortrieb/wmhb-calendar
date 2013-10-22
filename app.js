@@ -22,11 +22,11 @@ if ('development' === app.get('env')) {
 
 app.get('/', function (req, res) {
 	res.render('index', {
-		title: 'test',
+		title: 'Die nächsten Termine',
 		dates: calendar.dates,
 		parseDate: function () {
 			return function (text, render) {
-				return strftime("%B %d, %Y %H:%M:%S", new Date(
+				return strftime("%e %B %Y %H:%M", new Date(
 					Date.parse(render(text))
 				));
 			};
@@ -43,7 +43,7 @@ app.get('/dates.json', function (req, res) {
 });
 
 calendar.refresh();
-setTimeout(calendar.refresh, 1000 * 60 * 10);
+setInterval(calendar.refresh, 1000 * 60 * 10);
 
 http.createServer(app).listen(app.get('port'), function () {
 	console.log('Express server listening on port ' + app.get('port'));

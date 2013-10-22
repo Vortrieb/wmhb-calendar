@@ -2,67 +2,62 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
+/* line 8, ../../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 12, ../../sass/screen.scss */
 html {
-  line-height: 1;
+  background-color: #eee;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
+/* line 16, ../../sass/screen.scss */
+body {
+  text-align: center;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
+/* line 20, ../../sass/screen.scss */
+.event {
+  display: inline-block;
+  background-color: #fff;
+  margin: 1em;
+  width: 20em;
+  padding: 1em;
+  min-height: 20em;
+  position: relative;
+  vertical-align: top;
   text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
+/* line 32, ../../sass/screen.scss */
+.event-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
+/* line 38, ../../sass/screen.scss */
+.event-description {
+  font-size: 0.85em;
 }
 
-/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p385@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
+/* line 42, ../../sass/screen.scss */
+.event-dropday {
+  background-color: red;
+  position: absolute;
+  top: -0.6em;
+  left: 1rem;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0.2em;
+}
+
+/* line 52, ../../sass/screen.scss */
+.event-label {
+  display: inline-block;
+  min-width: 4em;
+  font-size: 0.85em;
 }

@@ -3,4 +3,54 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+@import "compass";
+
+* {
+	@include box-sizing(border-box);
+}
+
+html {
+	background-color: #eee;
+}
+
+body {
+	text-align: center;
+}
+
+.event {
+	display: inline-block;
+	background-color: #fff;
+	margin: 1em;
+	width: 20em;
+	padding: 1em;
+	min-height: 20em;
+	position: relative;
+	vertical-align: top;
+	text-align: left;
+}
+
+.event-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.event-description {
+	font-size: 0.85em;
+}
+
+.event-dropday {
+	background-color: red;
+	position: absolute;
+	top: -0.6em;
+	left: 1rem;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.2em;
+}
+
+.event-label {
+	display: inline-block;
+	min-width: 4em;
+	font-size: 0.85em;
+}

@@ -8,36 +8,37 @@
 <body>
 	<h1>Veranstaltungen:</h1>
 	<p>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-		eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-		voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-		clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-		amet.
+		In Bremen passiert einiges im Netz. Vieles geht leider unter, weil keiner weiß, was wann und wo läuft. Also haben wir diesen kleinen Klender gebaut, der versucht, alle Veranstaltungen zu sammeln.
 	</p>
 
-	<ul class="date-list">
+
+	<h2>Oktober</h2>
+	<ul class="event-list">
 		{{#dates}}
-		<li class="date-list--item">
-			<h2>{{title.$t}}</h2>
-			<p>{{content.$t}}</p>
-			<div class="date-list--address">
+		<li class="event">
+			<div class="event-dropday">22.</div>
+			<h3>{{title.$t}}</h3>
+			<div class="event-address">
 				{{#gd$where}}
-					{{valueString}}
+					<p><a href="https://www.google.de/maps/preview#!q={{valueString}}">{{valueString}}</a></p>
 				{{/gd$where}}
 			</div>
 
-			<div class="date-list--timing">
+			<div class="event-date">
 				{{#gd$when}}
-				<div class="date-list--timing-start">
-					Beginn: {{#parseDate}}{{startTime}}{{/parseDate}}
+				<div class="event-date-start">
+					<span class="event-label">Beginn:</span> <time datetime="{{startTime}}">{{#parseDate}}{{startTime}}{{/parseDate}}</time>
 				</div>
 				{{#endTime}}
-				<div class="date-list--timing-end">
-					Ende: {{#parseDate}}{{endTime}}{{/parseDate}}
+				<div class="event-date-end">
+					<span class="event-label">Ende:</span> <time datetime="{{startTime}}">{{#parseDate}}{{endTime}}{{/parseDate}}</time>
 				</div>
 				{{/endTime}}
 				{{/gd$when}}
 			</div>
+
+			<p class="event-description">{{content.$t}}</p>
+
 		</li>
 		{{/dates}}
 	</ul>
