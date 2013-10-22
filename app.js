@@ -7,7 +7,6 @@ var path             = require('path');
 var cons             = require('consolidate');
 var app              = express();
 var calendar         = require('./lib/requestDates');
-var strftime         = require('./lib/l10nStrftime');
 
 app.engine('mustache', cons.mustache);
 app.set('port', process.env.PORT || 3000);
@@ -24,13 +23,6 @@ app.get('/', function (req, res) {
 	res.render('index', {
 		title: 'Die nächsten Termine',
 		dates: calendar.dates,
-		parseDate: function () {
-			return function (text, render) {
-				return strftime("%e %B %Y %H:%M", new Date(
-					Date.parse(render(text))
-				));
-			};
-		}
 	});
 });
 

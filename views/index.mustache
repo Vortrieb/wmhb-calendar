@@ -16,7 +16,7 @@
 	<ul class="event-list">
 		{{#dates}}
 		<li class="event">
-			<div class="event-dropday">22.</div>
+      <div class="event-dropday">{{day}}</div>
 			<h3>{{title.$t}}</h3>
 			<div class="event-address">
 				{{#gd$where}}
@@ -25,16 +25,14 @@
 			</div>
 
 			<div class="event-date">
-				{{#gd$when}}
 				<div class="event-date-start">
-					<span class="event-label">Beginn:</span> <time datetime="{{startTime}}">{{#parseDate}}{{startTime}}{{/parseDate}}</time>
+					<span class="event-label">Beginn:</span>
+					<time datetime="{{gd$when.startTime}}">{{readableStartDate}}</time>
 				</div>
-				{{#endTime}}
 				<div class="event-date-end">
-					<span class="event-label">Ende:</span> <time datetime="{{startTime}}">{{#parseDate}}{{endTime}}{{/parseDate}}</time>
+					<span class="event-label">Ende:</span>
+					<time datetime="{{gd$when.endTime}}">{{readableEndDate}}</time>
 				</div>
-				{{/endTime}}
-				{{/gd$when}}
 			</div>
 
 			<p class="event-description">{{content.$t}}</p>
