@@ -13,6 +13,14 @@ describe('requestDates', function () {
 		it('returns an array', function () {
 			assert(_.isArray(result));
 		});
+
+		it('is grouped by month', function () {
+			var group = result[0];
+
+			assert.equal(group.monthName, "Oktober");
+			assert.equal(group.month, "10");
+			assert.lengthOf(group.events, 3);
+		});
 	});
 
 	describe('#parseDate', function () {

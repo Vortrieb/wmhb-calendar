@@ -14,9 +14,10 @@
 	</p>
 
 
-	<h2>Oktober</h2>
+	{{#dates}}
+	<h2>{{monthName}}</h2>
 	<ul class="event-list">
-		{{#dates}}
+		{{#events}}
 		<li class="event">
       <div class="event-dropday">{{start.day}}</div>
 			<h3>{{title}}</h3>
@@ -36,7 +37,9 @@
 			<p class="event-description">{{description}}</p>
 
 		</li>
-		{{/dates}}
+		{{/events}}
 	</ul>
+	{{/dates}}
+
 </body>
 </html>
