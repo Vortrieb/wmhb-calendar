@@ -23,14 +23,29 @@ module.exports = function (grunt) {
 			}
 		},
 
+		simplemocha: {
+			dev: {
+				src: [ "test/*_test.js", "test/**/*_test.js"],
+				options: {
+					reporter: 'spec',
+					slow: 200,
+					timeout: 1000
+				}
+			},
+			src: ['test/*_test.js', 'test/**/*_test.js']
+		},
+
 		watch: {
+			simplemocha: {
+				files: ['lib/*.js', 'test/*_test.js', 'test/**/*_test.js'],
+				tasks: ['simplemocha:dev']
+			},
+
 			express: {
 				files: [
 					'app.js', 'lib/*.js', 'lib/**/*.js'
 				],
-
 				tasks: ['express:dev'],
-
 				options: {
 					nospawn: true,
 					livereload: true
@@ -55,6 +70,7 @@ module.exports = function (grunt) {
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-simple-mocha');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-express-server');
 

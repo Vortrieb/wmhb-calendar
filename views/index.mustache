@@ -18,24 +18,22 @@
 	<ul class="event-list">
 		{{#dates}}
 		<li class="event">
-      <div class="event-dropday">{{day}}</div>
-			<h3>{{title.$t}}</h3>
+      <div class="event-dropday">{{start.day}}</div>
+			<h3>{{title}}</h3>
 			<div class="event-address">
-				{{#gd$where}}
-					<p><a href="https://www.google.de/maps/preview#!q={{valueString}}">{{valueString}}</a></p>
-				{{/gd$where}}
+				<p><a href="https://www.google.de/maps/preview#!q={{place}}">{{{placeHTML}}}</a></p>
 			</div>
 
 			<div class="event-date">
 				<p>
 					<span class="event-label">Beginn:</span>
-					<time datetime="{{gd$when.startTime}}">{{readableStartDate}}</time><br />
+					<time datetime="{{start.utc}}">{{start.full}}</time><br />
 					<span class="event-label">Ende:</span>
-					<time datetime="{{gd$when.endTime}}">{{readableEndDate}}</time>
+					<time datetime="{{start.utc}}">{{end.full}}</time>
 				</p>
 			</div>
 
-			<p class="event-description">{{content.$t}}</p>
+			<p class="event-description">{{description}}</p>
 
 		</li>
 		{{/dates}}

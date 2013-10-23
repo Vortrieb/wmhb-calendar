@@ -1,0 +1,1125 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$gCal": "http://schemas.google.com/gCal/2005",
+        "xmlns$gd": "http://schemas.google.com/g/2005",
+        "id": {
+            "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full"
+        },
+        "updated": {
+            "$t": "2013-10-22T15:16:17.000Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/g/2005#kind",
+                "term": "http://schemas.google.com/g/2005#event"
+            }
+        ],
+        "title": {
+            "$t": "Webveranstaltungen in Bremen",
+            "type": "text"
+        },
+        "subtitle": {
+            "$t": "",
+            "type": "text"
+        },
+        "link": [
+            {
+                "rel": "alternate",
+                "type": "text/html",
+                "href": "http://www.google.com/calendar/embed?src=pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#feed",
+                "type": "application/atom+xml",
+                "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#batch",
+                "type": "application/atom+xml",
+                "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/batch"
+            },
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full?alt=json&max-results=10&singleevents=true&futureevents=true&sortorder=ascending&orderby=starttime"
+            },
+            {
+                "rel": "next",
+                "type": "application/atom+xml",
+                "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full?alt=json&start-index=11&max-results=10&singleevents=true&futureevents=true&sortorder=ascending&orderby=starttime"
+            }
+        ],
+        "author": [
+            {
+                "name": {
+                    "$t": "Webveranstaltungen in Bremen"
+                }
+            }
+        ],
+        "generator": {
+            "$t": "Google Calendar",
+            "version": "1.0",
+            "uri": "http://www.google.com/calendar"
+        },
+        "openSearch$totalResults": {
+            "$t": 1811
+        },
+        "openSearch$startIndex": {
+            "$t": 1
+        },
+        "openSearch$itemsPerPage": {
+            "$t": 10
+        },
+        "gCal$timezone": {
+            "value": "Europe/Berlin"
+        },
+        "gCal$timesCleaned": {
+            "value": 0
+        },
+        "gd$where": {
+            "valueString": "Bremen"
+        },
+        "entry": [
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/tna9i8gk61ebvtnv339rrb41u0"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:56:18.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:56:18.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Online Marketing Stammtisch",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Der Stammtisch für Online Marketing & SEO in Bremen wurde gegründet, um regelmäßige Treffen auf hohem fachlichen Niveau in geselliger Runde abzuhalten. Ziel ist es, Agenturen, Freiberufler und Inhouse-Verantwortliche aus Bremen und Umgebung zu einer unkomplizierten Veranstaltung zusammen zu bekommen, ohne eine Werbeveranstaltung daraus zu machen.",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=dG5hOWk4Z2s2MWVidnRudjMzOXJyYjQxdTAgcGNsaXYxajc2ODU0bG1uMDRzZjdmdmJycGNAZw",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/tna9i8gk61ebvtnv339rrb41u0"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/tna9i8gk61ebvtnv339rrb41u0/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "daheim, Vor dem Steintor 24-26, 28203 Bremen"
+                    }
+                ],
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-10-24T21:00:00.000+02:00",
+                        "startTime": "2013-10-24T19:00:00.000+02:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "tna9i8gk61ebvtnv339rrb41u0@google.com"
+                },
+                "day": "24",
+                "readableStartDate": "24 Oktober 2013 19:00",
+                "readableEndDate": "24 Oktober 2013 21:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131027T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Linux-User-Group-Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Die LUG-Bremen ist ein lockerer Zusammenschluss von Leuten, die sich auch, aber nicht nur mit Linux auseinandersetzt. \nMit einer Stammbesetzung von 6-7 Leuten plus viele regel- und unrgelmäßige Besucher ist die LUG-Bremen sicherlich eine der, wenn nicht sogar die älteste Usergroup in Bremen und es freut uns, dass Ihr Stammtisch nun bei uns stattfindet.\nWeitere Informationen zur LUG-Bremen findet Ihr unter http://www.lug-bremen.info/",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=Y2duNjllazVrYjJuMDJzZHI3bjJzaGVsbnNfMjAxMzEwMjdUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131027T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131027T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns",
+                    "id": "cgn69ek5kb2n02sdr7n2shelns",
+                    "gd$when": {
+                        "startTime": "2013-10-27T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-10-27T22:00:00.000+01:00",
+                        "startTime": "2013-10-27T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "cgn69ek5kb2n02sdr7n2shelns@google.com"
+                },
+                "day": "27",
+                "readableStartDate": "27 Oktober 2013 19:00",
+                "readableEndDate": "27 Oktober 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/4l977dspmd6ohbqljk2ki2qgm0_20131028T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:32:25.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:32:25.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "OSM Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Jeden vierten Montag im Monat trifft sich die Usergroup \"OpenStreetMap Bremen\" zum Stammtisch bei uns. Die Teilnehmer beschäftigen sich mit OpenStreetMap und dem Erweitern des Kartenmaterials in Bremen.",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=NGw5Nzdkc3BtZDZvaGJxbGprMmtpMnFnbTBfMjAxMzEwMjhUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/4l977dspmd6ohbqljk2ki2qgm0_20131028T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/4l977dspmd6ohbqljk2ki2qgm0_20131028T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/4l977dspmd6ohbqljk2ki2qgm0",
+                    "id": "4l977dspmd6ohbqljk2ki2qgm0",
+                    "gd$when": {
+                        "startTime": "2013-10-28T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-10-28T22:00:00.000+01:00",
+                        "startTime": "2013-10-28T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "4l977dspmd6ohbqljk2ki2qgm0@google.com"
+                },
+                "day": "28",
+                "readableStartDate": "28 Oktober 2013 19:00",
+                "readableEndDate": "28 Oktober 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131103T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Linux-User-Group-Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Die LUG-Bremen ist ein lockerer Zusammenschluss von Leuten, die sich auch, aber nicht nur mit Linux auseinandersetzt. \nMit einer Stammbesetzung von 6-7 Leuten plus viele regel- und unrgelmäßige Besucher ist die LUG-Bremen sicherlich eine der, wenn nicht sogar die älteste Usergroup in Bremen und es freut uns, dass Ihr Stammtisch nun bei uns stattfindet.\nWeitere Informationen zur LUG-Bremen findet Ihr unter http://www.lug-bremen.info/",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=Y2duNjllazVrYjJuMDJzZHI3bjJzaGVsbnNfMjAxMzExMDNUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131103T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131103T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns",
+                    "id": "cgn69ek5kb2n02sdr7n2shelns",
+                    "gd$when": {
+                        "startTime": "2013-11-03T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-03T22:00:00.000+01:00",
+                        "startTime": "2013-11-03T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "cgn69ek5kb2n02sdr7n2shelns@google.com"
+                },
+                "day": "3",
+                "readableStartDate": "3 November 2013 19:00",
+                "readableEndDate": "3 November 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/qqdnouh8j2afi9tmaantvrute8"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:57:54.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T15:16:17.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Klub Dialog #18",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Der Klub Dialog e. V. lädt monatlich zu Veranstaltungsabenden ein, bei denen die Kreativen im Vordergrund stehen. Im 7-Minuten-Format werden auf der Bühne kreative Unternehmen, Ideen und Projekte vorgestellt. Die Veranstaltungen bieten - passend zum Namen Klub Dialog - viel Zeit zum Kennenlernen, Fragenstellen, Austauschen und Netzwerken.",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=cXFkbm91aDhqMmFmaTl0bWFhbnR2cnV0ZTggcGNsaXYxajc2ODU0bG1uMDRzZjdmdmJycGNAZw",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/qqdnouh8j2afi9tmaantvrute8"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/qqdnouh8j2afi9tmaantvrute8/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Foyer des Schauspielhauses, Theater Bremen, Goetheplatz 1 – 3, 28203 Bremen"
+                    }
+                ],
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-06T21:00:00.000+01:00",
+                        "startTime": "2013-11-06T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "qqdnouh8j2afi9tmaantvrute8@google.com"
+                },
+                "day": "6",
+                "readableStartDate": "6 November 2013 19:00",
+                "readableEndDate": "6 November 2013 21:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131110T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Linux-User-Group-Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Die LUG-Bremen ist ein lockerer Zusammenschluss von Leuten, die sich auch, aber nicht nur mit Linux auseinandersetzt. \nMit einer Stammbesetzung von 6-7 Leuten plus viele regel- und unrgelmäßige Besucher ist die LUG-Bremen sicherlich eine der, wenn nicht sogar die älteste Usergroup in Bremen und es freut uns, dass Ihr Stammtisch nun bei uns stattfindet.\nWeitere Informationen zur LUG-Bremen findet Ihr unter http://www.lug-bremen.info/",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=Y2duNjllazVrYjJuMDJzZHI3bjJzaGVsbnNfMjAxMzExMTBUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131110T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131110T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns",
+                    "id": "cgn69ek5kb2n02sdr7n2shelns",
+                    "gd$when": {
+                        "startTime": "2013-11-10T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-10T22:00:00.000+01:00",
+                        "startTime": "2013-11-10T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "cgn69ek5kb2n02sdr7n2shelns@google.com"
+                },
+                "day": "10",
+                "readableStartDate": "10 November 2013 19:00",
+                "readableEndDate": "10 November 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/5smf0f0t4i5qp7n05h9kfrfat8_20131111T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-17T14:24:28.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:33:58.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Bremen.js",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Jeden zweiten Montag im Monat trifft sich die JavaScript Usergroup \"Bremen.js\" zum Stammtisch bei uns.\nAktuelle Themen könnt Ihr der Seite http://bremenjs.de entnehmen.\nBesucher, die die \"Bremen.js\" kennenlernen wollen, sind natürlich willkommen.",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=NXNtZjBmMHQ0aTVxcDduMDVoOWtmcmZhdDhfMjAxMzExMTFUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/5smf0f0t4i5qp7n05h9kfrfat8_20131111T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/5smf0f0t4i5qp7n05h9kfrfat8_20131111T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/5smf0f0t4i5qp7n05h9kfrfat8",
+                    "id": "5smf0f0t4i5qp7n05h9kfrfat8",
+                    "gd$when": {
+                        "startTime": "2013-11-11T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-11T22:00:00.000+01:00",
+                        "startTime": "2013-11-11T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "5smf0f0t4i5qp7n05h9kfrfat8@google.com"
+                },
+                "day": "11",
+                "readableStartDate": "11 November 2013 19:00",
+                "readableEndDate": "11 November 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131117T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Linux-User-Group-Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Die LUG-Bremen ist ein lockerer Zusammenschluss von Leuten, die sich auch, aber nicht nur mit Linux auseinandersetzt. \nMit einer Stammbesetzung von 6-7 Leuten plus viele regel- und unrgelmäßige Besucher ist die LUG-Bremen sicherlich eine der, wenn nicht sogar die älteste Usergroup in Bremen und es freut uns, dass Ihr Stammtisch nun bei uns stattfindet.\nWeitere Informationen zur LUG-Bremen findet Ihr unter http://www.lug-bremen.info/",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=Y2duNjllazVrYjJuMDJzZHI3bjJzaGVsbnNfMjAxMzExMTdUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131117T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131117T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns",
+                    "id": "cgn69ek5kb2n02sdr7n2shelns",
+                    "gd$when": {
+                        "startTime": "2013-11-17T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-17T22:00:00.000+01:00",
+                        "startTime": "2013-11-17T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "cgn69ek5kb2n02sdr7n2shelns@google.com"
+                },
+                "day": "17",
+                "readableStartDate": "17 November 2013 19:00",
+                "readableEndDate": "17 November 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/df6n9ceoeea2sui2fmolrhedss_20131118T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:29:40.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:33:33.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Cocoaheads Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Jeden dritten Montag im Monat trifft sich die Usergroup \"Cocoaheads Bremen\" zum Stammtisch bei uns. Die Teilnehmer beschäftigen sich mit Mac-, iPhone und iPad-Entwicklung. Weitere Informationen gibt es auf http://cocoaheads.org/de/Bremen",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=ZGY2bjljZW9lZWEyc3VpMmZtb2xyaGVkc3NfMjAxMzExMThUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/df6n9ceoeea2sui2fmolrhedss_20131118T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/df6n9ceoeea2sui2fmolrhedss_20131118T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/df6n9ceoeea2sui2fmolrhedss",
+                    "id": "df6n9ceoeea2sui2fmolrhedss",
+                    "gd$when": {
+                        "startTime": "2013-11-18T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-18T22:00:00.000+01:00",
+                        "startTime": "2013-11-18T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "df6n9ceoeea2sui2fmolrhedss@google.com"
+                },
+                "day": "18",
+                "readableStartDate": "18 November 2013 19:00",
+                "readableEndDate": "18 November 2013 22:00"
+            },
+            {
+                "id": {
+                    "$t": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131124T180000Z"
+                },
+                "published": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "updated": {
+                    "$t": "2013-10-22T14:53:15.000Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind",
+                        "term": "http://schemas.google.com/g/2005#event"
+                    }
+                ],
+                "title": {
+                    "$t": "Linux-User-Group-Bremen",
+                    "type": "text"
+                },
+                "content": {
+                    "$t": "Die LUG-Bremen ist ein lockerer Zusammenschluss von Leuten, die sich auch, aber nicht nur mit Linux auseinandersetzt. \nMit einer Stammbesetzung von 6-7 Leuten plus viele regel- und unrgelmäßige Besucher ist die LUG-Bremen sicherlich eine der, wenn nicht sogar die älteste Usergroup in Bremen und es freut uns, dass Ihr Stammtisch nun bei uns stattfindet.\nWeitere Informationen zur LUG-Bremen findet Ihr unter http://www.lug-bremen.info/",
+                    "type": "text"
+                },
+                "link": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "http://www.google.com/calendar/event?eid=Y2duNjllazVrYjJuMDJzZHI3bjJzaGVsbnNfMjAxMzExMjRUMTgwMDAwWiBwY2xpdjFqNzY4NTRsbW4wNHNmN2Z2YnJwY0Bn",
+                        "title": "alternate"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131124T180000Z"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Andreas Dantz"
+                        },
+                        "email": {
+                            "$t": "andreas.dantz@gmail.com"
+                        }
+                    }
+                ],
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns_20131124T180000Z/comments"
+                    }
+                },
+                "gd$eventStatus": {
+                    "value": "http://schemas.google.com/g/2005#event.confirmed"
+                },
+                "gd$where": [
+                    {
+                        "valueString": "Hackerspace Bremen, Bornstr. 14-15, 28195 Bremen"
+                    }
+                ],
+                "gd$originalEvent": {
+                    "href": "http://www.google.com/calendar/feeds/pcliv1j76854lmn04sf7fvbrpc%40group.calendar.google.com/public/full/cgn69ek5kb2n02sdr7n2shelns",
+                    "id": "cgn69ek5kb2n02sdr7n2shelns",
+                    "gd$when": {
+                        "startTime": "2013-11-24T19:00:00.000+01:00"
+                    }
+                },
+                "gd$who": [
+                    {
+                        "email": "pcliv1j76854lmn04sf7fvbrpc@group.calendar.google.com",
+                        "rel": "http://schemas.google.com/g/2005#event.organizer",
+                        "valueString": "Webveranstaltungen in Bremen"
+                    }
+                ],
+                "gd$when": [
+                    {
+                        "endTime": "2013-11-24T22:00:00.000+01:00",
+                        "startTime": "2013-11-24T19:00:00.000+01:00"
+                    }
+                ],
+                "gd$transparency": {
+                    "value": "http://schemas.google.com/g/2005#event.opaque"
+                },
+                "gCal$anyoneCanAddSelf": {
+                    "value": "false"
+                },
+                "gCal$guestsCanInviteOthers": {
+                    "value": "true"
+                },
+                "gCal$guestsCanModify": {
+                    "value": "false"
+                },
+                "gCal$guestsCanSeeGuests": {
+                    "value": "true"
+                },
+                "gCal$sequence": {
+                    "value": 0
+                },
+                "gCal$uid": {
+                    "value": "cgn69ek5kb2n02sdr7n2shelns@google.com"
+                },
+                "day": "24",
+                "readableStartDate": "24 November 2013 19:00",
+                "readableEndDate": "24 November 2013 22:00"
+            }
+        ]
+    }
+}
