@@ -44,7 +44,8 @@ describe('requestDates', function () {
 			var result = requestDates.parseEntry(dataJSON.feed.entry[0]);
 
 			assert.deepEqual(result, {
-				description: 'Der Stammtisch für Online Marketing & SEO in Bremen wurde gegründet, um regelmäßige Treffen auf hohem fachlichen Niveau in geselliger Runde abzuhalten. Ziel ist es, Agenturen, Freiberufler und Inhouse-Verantwortliche aus Bremen und Umgebung zu einer unkomplizierten Veranstaltung zusammen zu bekommen, ohne eine Werbeveranstaltung daraus zu machen.',
+				description: 'Der Stammtisch für Online Marketing & SEO in Bremen wurde gegründet, um regelmäßige Treffen auf hohem fachlichen Niveau in geselliger Runde abzuhalten. Ziel ist es, Agenturen, Freiberufler und Inhouse-Verantwortliche aus Bremen und Umgebung zu einer unkomplizierten Veranstaltung zusammen zu bekommen, ohne eine Werbeveranstaltung daraus zu machen. http://www.google.de/',
+				descriptionHTML: 'Der Stammtisch für Online Marketing & SEO in Bremen wurde gegründet, um regelmäßige Treffen auf hohem fachlichen Niveau in geselliger Runde abzuhalten. Ziel ist es, Agenturen, Freiberufler und Inhouse-Verantwortliche aus Bremen und Umgebung zu einer unkomplizierten Veranstaltung zusammen zu bekommen, ohne eine Werbeveranstaltung daraus zu machen. <a href="http://www.google.de/">http://www.google.de/</a>',
 				place: 'daheim, Vor dem Steintor 24-26, 28203 Bremen',
 				placeHTML: 'daheim<br/>Vor dem Steintor 24-26<br/>28203 Bremen',
 				start: {
@@ -72,4 +73,15 @@ describe('requestDates', function () {
 			});
 		})
 	});
+
+	describe("#parseText", function () {
+		it("transforms urls to links", function () {
+			var text = "Foo http://url.de/ irgendwas";
+
+			assert.equal(
+				requestDates.parseText(text),
+				'Foo <a href="http://url.de/">http://url.de/</a> irgendwas'
+			)
+		});
+	})
 });
