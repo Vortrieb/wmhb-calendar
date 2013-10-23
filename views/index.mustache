@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{title}} - Webmontag Kalender</title>
+	<script type="text/javascript" src="//use.typekit.net/wyk4qmd.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-	<h1>Veranstaltungen:</h1>
+	<h1>Web-Veranstaltungen in Bremen</h1>
 	<p>
 		In Bremen passiert einiges im Netz. Vieles geht leider unter, weil keiner weiß, was wann und wo läuft. Also haben wir diesen kleinen Klender gebaut, der versucht, alle Veranstaltungen zu sammeln.
 	</p>
@@ -25,14 +27,12 @@
 			</div>
 
 			<div class="event-date">
-				<div class="event-date-start">
+				<p>
 					<span class="event-label">Beginn:</span>
-					<time datetime="{{gd$when.startTime}}">{{readableStartDate}}</time>
-				</div>
-				<div class="event-date-end">
+					<time datetime="{{gd$when.startTime}}">{{readableStartDate}}</time><br />
 					<span class="event-label">Ende:</span>
 					<time datetime="{{gd$when.endTime}}">{{readableEndDate}}</time>
-				</div>
+				</p>
 			</div>
 
 			<p class="event-description">{{content.$t}}</p>

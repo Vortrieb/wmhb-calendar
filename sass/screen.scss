@@ -3,6 +3,9 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+$color-font: #222;
+$color-orange: #e8bf46;
+
 @import "compass";
 
 * {
@@ -15,18 +18,34 @@ html {
 
 body {
 	text-align: center;
+	font-family: "brandon-grotesque",sans-serif;	
+}
+
+p {
+	margin-top: 0;
+}
+
+a:link, 
+a:visited {
+	color: $color-font;
+}
+
+a:hover,
+a:focus {
+	color: $color-orange;
 }
 
 .event {
 	display: inline-block;
 	background-color: #fff;
-	margin: 1em;
+	margin: 1em 1em 2em 1em;
 	width: 20em;
 	padding: 1em;
 	min-height: 20em;
 	position: relative;
 	vertical-align: top;
 	text-align: left;
+	@include box-shadow(0 0.2em 0.2em 0 rgba(0, 0, 0, 0.5));
 }
 
 .event-list {
@@ -40,13 +59,17 @@ body {
 }
 
 .event-dropday {
-	background-color: red;
+	background-color: $color-orange;
+	color: #fff;
 	position: absolute;
-	top: -0.6em;
+	top: -0.9em;
 	left: 1rem;
 	font-size: 2em;
 	font-weight: bold;
 	padding: 0.2em;
+	width: 1.9em;
+	text-align: center;
+	@include border-radius(50%);
 }
 
 .event-label {

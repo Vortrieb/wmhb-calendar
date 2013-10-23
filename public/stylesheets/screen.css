@@ -2,60 +2,89 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 8, ../../sass/screen.scss */
+/* line 11, ../../sass/screen.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 12, ../../sass/screen.scss */
+/* line 15, ../../sass/screen.scss */
 html {
   background-color: #eee;
 }
 
-/* line 16, ../../sass/screen.scss */
+/* line 19, ../../sass/screen.scss */
 body {
   text-align: center;
+  font-family: "brandon-grotesque",sans-serif;
 }
 
-/* line 20, ../../sass/screen.scss */
+/* line 24, ../../sass/screen.scss */
+p {
+  margin-top: 0;
+}
+
+/* line 29, ../../sass/screen.scss */
+a:link,
+a:visited {
+  color: #222222;
+}
+
+/* line 34, ../../sass/screen.scss */
+a:hover,
+a:focus {
+  color: #e8bf46;
+}
+
+/* line 38, ../../sass/screen.scss */
 .event {
   display: inline-block;
   background-color: #fff;
-  margin: 1em;
+  margin: 1em 1em 2em 1em;
   width: 20em;
   padding: 1em;
   min-height: 20em;
   position: relative;
   vertical-align: top;
   text-align: left;
+  -webkit-box-shadow: 0 0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
 }
 
-/* line 32, ../../sass/screen.scss */
+/* line 51, ../../sass/screen.scss */
 .event-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 38, ../../sass/screen.scss */
+/* line 57, ../../sass/screen.scss */
 .event-description {
   font-size: 0.85em;
 }
 
-/* line 42, ../../sass/screen.scss */
+/* line 61, ../../sass/screen.scss */
 .event-dropday {
-  background-color: red;
+  background-color: #e8bf46;
+  color: #fff;
   position: absolute;
-  top: -0.6em;
+  top: -0.9em;
   left: 1rem;
   font-size: 2em;
   font-weight: bold;
   padding: 0.2em;
+  width: 1.9em;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
-/* line 52, ../../sass/screen.scss */
+/* line 75, ../../sass/screen.scss */
 .event-label {
   display: inline-block;
   min-width: 4em;
