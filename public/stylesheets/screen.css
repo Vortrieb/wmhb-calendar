@@ -31,19 +31,45 @@ p {
   margin-top: 0;
 }
 
-/* line 34, ../../sass/screen.scss */
+/* line 33, ../../sass/screen.scss */
+hr {
+  width: 60%;
+  border: 0;
+  border-top: 0.2em solid #ccc;
+  border-bottom: 0.1em solid #fff;
+  margin: 5em auto 0 auto;
+}
+
+/* line 41, ../../sass/screen.scss */
+hr + h2 {
+  margin-top: 0;
+  background-color: #eee;
+  display: inline-block;
+  padding: 0 0.5em;
+  position: relative;
+  top: -0.8em;
+}
+
+/* line 51, ../../sass/screen.scss */
 a:link,
 a:visited {
   color: #222222;
 }
 
-/* line 39, ../../sass/screen.scss */
+/* line 56, ../../sass/screen.scss */
 a:hover,
 a:focus {
   color: #e8bf46;
 }
 
-/* line 43, ../../sass/screen.scss */
+/* line 60, ../../sass/screen.scss */
+.intro {
+  width: 80%;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+/* line 66, ../../sass/screen.scss */
 .event {
   display: inline-block;
   background-color: #fff;
@@ -59,22 +85,22 @@ a:focus {
   box-shadow: 0 0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
 }
 
-/* line 56, ../../sass/screen.scss */
+/* line 79, ../../sass/screen.scss */
 .event-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 62, ../../sass/screen.scss */
+/* line 85, ../../sass/screen.scss */
 .event-description {
   font-size: 0.85em;
   line-height: 1.3;
 }
 
-/* line 67, ../../sass/screen.scss */
+/* line 90, ../../sass/screen.scss */
 .event-dropday {
-  background-color: #e8bf46;
+  background-color: rgba(232, 191, 70, 0.8);
   color: #fff;
   position: absolute;
   top: -0.9em;
@@ -91,9 +117,14 @@ a:focus {
   border-radius: 50%;
 }
 
-/* line 81, ../../sass/screen.scss */
+/* line 104, ../../sass/screen.scss */
 .event-label {
   display: inline-block;
-  min-width: 4em;
+  min-width: 3em;
   font-size: 0.85em;
+}
+
+/* line 110, ../../sass/screen.scss */
+small {
+  opacity: 0.3;
 }

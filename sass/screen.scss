@@ -30,6 +30,23 @@ p {
 	margin-top: 0;
 }
 
+hr {
+	width: 60%;
+	border: 0;
+	border-top: 0.2em solid #ccc;
+	border-bottom: 0.1em solid #fff;
+	margin: 5em auto 0 auto;	
+}
+
+hr + h2 {
+	margin-top: 0;
+	background-color: #eee;
+	display: inline-block;
+	padding: 0 0.5em;
+	position: relative;
+	top: -0.8em;
+}
+
 a:link, 
 a:visited {
 	color: $color-font;
@@ -38,6 +55,12 @@ a:visited {
 a:hover,
 a:focus {
 	color: $color-orange;
+}
+
+.intro {
+	width: 80%;
+	max-width: 40em;
+	margin: 0 auto;
 }
 
 .event {
@@ -65,7 +88,7 @@ a:focus {
 }
 
 .event-dropday {
-	background-color: $color-orange;
+	background-color: rgba($color-orange, 0.8);
 	color: #fff;
 	position: absolute;
 	top: -0.9em;
@@ -80,6 +103,10 @@ a:focus {
 
 .event-label {
 	display: inline-block;
-	min-width: 4em;
+	min-width: 3em;
 	font-size: 0.85em;
+}
+
+small {
+	opacity: 0.3;
 }
