@@ -1,6 +1,6 @@
-var assert = require('chai').assert;
-var fs = require('fs');
-var _ = require('lodash');
+var assert       = require('chai').assert;
+var fs           = require('fs');
+var _            = require('lodash');
 var requestDates = require('../lib/requestDates');
 
 describe('requestDates', function () {
