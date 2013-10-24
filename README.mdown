@@ -1,9 +1,12 @@
 # Webmontag Kalender
 
+[![Build Status](https://travis-ci.org/Vortrieb/wmhb-calendar.png?branch=master)](https://travis-ci.org/Vortrieb/wmhb-calendar)
+
 ## Vorraussetzungen
 
 Grunt muss installiert sein: `npm install -g grunt-cli`. Am besten auch `npm` auf
 dem aktuellsten Stand halten.
+
 
 ## Zum laufen bringen
 
