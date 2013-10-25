@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-  - "0.8"
+- '0.11'
+- '0.10'
+- '0.8'
+env:
+  global:
+    secure: 2YoJsx73NXlop5M5mNx6UqVaX1TRIO149mWxu/+oFZuYepw8nUzZnKtTmOXJ3HD96lgz9IvmQsMllx7V5kmq+JiegzBpCFiIq2xzqOVPUxcg+2Vc8m0XLWq9Xd1I5Ps8wBMp6+GnTMIQJA0xnMPpbESmv6bSyafVKrPi3t9qmHw=
+after_success:
+- curl http://cal.wmhb.co/restart$RESTART_TOKEN
