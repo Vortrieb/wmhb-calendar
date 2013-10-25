@@ -2,6 +2,8 @@
 
 # Webmontag Kalender
 
+Der Kalender wird in einem Google Calendar gepflegt. Veranstalltungsorganisateure bekommen Stellvertreterrechte. Dieser Kalender ruft die eingetragenen Veranstaltungen als JSON von Google ab und bereitet sie als Website auf.
+
 ## Installation
 
 Das ganze läuft mit [NodeJS]( http://nodejs.org/) und muss ggf. als erstes
