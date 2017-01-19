@@ -46,5 +46,5 @@ und [Compass](http://compass-style.org).
 #### JavaScript
 
 Es gibt zwar nicht für alles Tests, aber für alle zukünftigen Dinge, sollten
-entsprechend Tests geschrieben werden. Dafür wird [mocha](visionmedia.github.io/mocha/)
+entsprechend Tests geschrieben werden. Dafür wird [mocha](http://mochajs.org/)
 und [Chai](http://chaijs.com/) mit der [assert API](http://chaijs.com/api/assert/) verwendet.
